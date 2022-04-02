@@ -1,0 +1,11 @@
+1.Docker support build-time ARG (arguments) and runtime ENV (environment) variables
+
+2.ARG arguments
+
+    => Available inside of Dockerfile
+
+    => Not accessible in CMD or any application code
+
+3.ENV environments
+
+    => Available inside of Dockerfile and in apllication code 
