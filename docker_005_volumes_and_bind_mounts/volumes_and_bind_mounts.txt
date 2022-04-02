@@ -1,0 +1,35 @@
+1. Anonymous Volume
+
+    => docker run -v /app/data
+
+    => Created specifically for a single container
+
+    => Survives container shutdown / restart unless --rm is used
+
+    => Can not be shared across containers
+
+    => Since it is anonymous,it can not be re-used
+
+2. Named Volume
+
+    => docker run -v data:/app/data
+
+    => Created in general - not tied to any specific container
+
+    => Survives container shutdown / restart
+
+    => Can be shared across containers
+
+    => Can be re-used for same container
+
+3. Bind Mount
+
+    => docker run -v /path/to/code:/app/code
+
+    => Location on host file system,not tied to any specific container
+
+    => Survives container shutdown/restart 
+
+    => Can be shared across containers
+
+    => Can be re-used for same container
