@@ -1,0 +1,11 @@
+1.Images       
+  
+      =>  Templates/Blueprints for containers.
+
+      =>  Contains code + required tools/runtimes.  
+
+2.Containers  
+
+      =>  The running unit of software.
+      
+      =>  Multiple containers can be created based on one image.
