@@ -1,0 +1,7 @@
+1.Docker is a container technology.
+
+2.Docker is a tiil for creating and managing containers.
+
+3.Container is a standaardized unit of software which yeilds the exact same application and execution behavior.
+
+4.Support for containers is built into modern operating systems.
