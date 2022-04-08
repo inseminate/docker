@@ -1,0 +1,9 @@
+1.apt update
+2.apt install unzip nano php-curl php8.1-fpm php8.1-intl php8.1-imap php8.1-mbstring php8.1-xmlrpc php8.1-soap php8.1-gd php8.1-xml php8.1-cli php8.1-zip curl -y
+3.curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+4.cd /var/www
+5.composer create-project laravel/laravel=9 project_001 --prefer-dist
+6.service php8.1-fpm start
+7.chmod -R 777 /var/www/project_001/storage
+8.nano /etc/nginx/sites-available/default
+9.service nginx reload
